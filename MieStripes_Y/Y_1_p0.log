@@ -1,0 +1,87 @@
+Warning: your license expires in 4 days!
+Ansys Lumerical 2021 R1.4 FDTD Solver Version 8.25.2683 (Linux 64bit)
+ expires (month/day/year): 10/31/2024
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 1055@immanuel.fme.vutbr.cz
+current time: Sun Oct 27 21:03:03 2024
+Running on host: konrad.fme.vutbr.cz
+host available memory (GB): 246.042595
+All processes are communicating and ready to proceed to simulation...
+Running fsp file: /opt/lumerical/v211/bin/fdtd-engine-mpich2nem /mnt/nfs/public/konrad/fridrich/Krcma/2024-10-27-NiFe27p55-Si60-a75/MieStripes_Y/Y_1.fsp
+number of processors is 60
+processors are distributed as: 6x5x2
+Running 3D Simulation
+Starting meshing
+Simulation size in gridpoints: 138 x 164 x 93
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 2.77 seconds of CPU time
+72200 72200
+Starting meshing
+Simulation size in gridpoints: 138 x 164 x 93
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 2.61 seconds of CPU time
+51200 51200
+Starting meshing
+Simulation size in gridpoints: 138 x 164 x 93
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 2.63 seconds of CPU time
+38080 38080
+finished material properties
+Meshing Time: 5.58113 seconds, Init Electrical Material Time: 0.79345 seconds, Init Magnetic Material Time: 0.017849
+Using selected optimization level: 2
+Selecting 3d kernel for splitFieldDirection=0 and optLevel=2
+-----------------------------------------
+Beginning initialization of 3D Simulation
+Starting to add sources to simulation
+Adding 3D Gaussian source propagating in Z
+Starting to add boundary conditions to simulation
+Adding 3D Symmetric BC
+Adding 3D Parallel BC
+Adding 3D Anti-Symmetric BC
+Adding 3D Parallel BC
+Adding 3D PML BC
+Adding 3D Parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding analysis monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D DFT monitor
+Adding 3D movie monitor
+Finished initialization of 3D Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 262250 total iterations
+0.00915156% complete. Max time remaining: 16 hrs, 13 mins, 22 secs. Auto Shutoff: 1
+0.514013% complete. Max time remaining: 16 hrs, 28 mins, 42 secs. Auto Shutoff: 1
+1.01735% complete. Max time remaining: 16 hrs, 24 mins, 9 secs. Auto Shutoff: 1
+1.52221% complete. Max time remaining: 16 hrs, 19 mins, 33 secs. Auto Shutoff: 1
+2.0286% complete. Max time remaining: 16 hrs, 13 mins, 50 secs. Auto Shutoff: 1
+2.53193% complete. Max time remaining: 16 hrs, 9 mins, 29 secs. Auto Shutoff: 0.000377675
+3.03374% complete. Max time remaining: 16 hrs, 4 mins, 52 secs. Auto Shutoff: 8.28799e-05
+3.54318% complete. Max time remaining: 15 hrs, 58 mins, 45 secs. Auto Shutoff: 2.48407e-05
+100% complete. Max time remaining: 0 mins, 0 secs. Auto Shutoff: 8.50228e-06
+Early termination of simulation, the autoshutoff criteria are satisfied.
+Completed 10072 iterations, or 3.840604e-14s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+warning, calculating the thin lens source requires ffts of matrices of size: 1024 X 1024
+Finished collecting data
+Simulation completed successfully at: Sun Oct 27 21:41:41 2024
+Overall wall time measurements in seconds: 2320.55
+    time to mesh and initialize: 20.6154
+    time to run FDTD simulation: 2289.43
+    time to checkpoint simulation: 6e-06
+    time to finalize data and save to files: 7.8265
+    miscellaneous time: 2.67623
+    FDTD solver speed on process 0: 9.25964 Mnodes/s
+    total FDTD solver speed on 60 processes: 555.578 Mnodes/s
